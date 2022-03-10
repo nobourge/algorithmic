@@ -2,4 +2,4 @@
 
 
 ![Visualization of the repository visualizer diagram](./diagram.svg)
-![Visualization of the exercises-all.pdf](./exercises-all.pdf)
+![Visualization of the exercise-all.pdf](./exercise-all.pdf)
