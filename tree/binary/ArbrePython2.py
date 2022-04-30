@@ -8,9 +8,18 @@ class BinaryTree:
 		self.left = BinaryTree(item)
 	
 	def modifyRight(self,item):
+		"""
+
+		:param item:
+		:return:
+		"""
 		self.right = BinaryTree(item)
 	
 	def getRootVal(self):
+		"""
+
+		:return:
+		"""
 		return self.info
 	
 	def setRootVal(self,item):
@@ -21,5 +30,3 @@ class BinaryTree:
 	
 	def getRightChild(self):
 		return self.right
-			
-	
