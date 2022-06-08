@@ -1,0 +1,11 @@
+trier les objets par ordre décroissant d'efficacité
+w_conso := 0
+
+pour i de 1 à n
+  si w[i] + w_conso ≤ W alors
+    x[i] := 1
+    w_conso := w_conso + w[i]
+  sinon
+    x[i] := 0
+  fin si
+fin pour
